@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 /**
  * Servlet implementation class doctorservlet
  */
@@ -35,9 +36,14 @@ public class doctorservlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String c = request.getParameter("code");
-		String n = request.getParameter("note");
-		String u = request.getParameter("uname");
-	}
+		String d = request.getParameter("dname");
+		String e = request.getParameter("email");
+		String a = request.getParameter("address");
+	 String p = request.getParameter("number");
+	 String s = request.getParameter("specialization");
+	 String g = request.getParameter("gender");
+	 String n = request.getParameter("note");
+	 
 
+}
 }
